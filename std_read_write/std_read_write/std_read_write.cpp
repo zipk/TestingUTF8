@@ -21,7 +21,9 @@ int main()
 	//const std::locale utf8_locale = std::locale(empty_locale, converter);
 	//std::wcin.imbue(utf8_locale);
 
-	std::wcout << L"Yes, Süß, Да." << std::endl;
+	std::wcout << L"Some texts with various characters: Yes, Süß, Да." << std::endl;
+	std::wcout << std::endl;
+	std::wcout << L"You will be asked for a text, type any to be replied with, or empty to end the application." << std::endl;
 
 	while (true) {
 		std::wstring str;
