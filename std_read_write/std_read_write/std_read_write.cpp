@@ -9,7 +9,8 @@
 
 enum class EInitializeUnicodeInOut {
 	WINDOWS_WAY,
-	STD_WAY
+	STD_WAY,
+	DEFAULT_WAY, // no initialization would be done
 };
 
 int main()
